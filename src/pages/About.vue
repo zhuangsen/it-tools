@@ -11,8 +11,8 @@ const { tracker } = useTracker();
     <h1>{{ $t('about.h1') }}</h1>
     <p text-justify>
       {{ $t('about.h1p1') }}
-      <c-link href="https://github.com/CorentinTh" target="_blank" rel="noopener">
-        Corentin Thomasset
+      <c-link href="https://zhuangsen.live" target="_blank" rel="noopener">
+        zhuangsen's blog
       </c-link>{{ $t('about.h1p2') }}
     </p>
     <p text-justify>

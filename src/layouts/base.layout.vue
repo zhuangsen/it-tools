@@ -57,7 +57,7 @@ const tools = computed<ToolCategory[]>(() => [
           <div>
             IT-Tools
 
-            <c-link target="_blank" rel="noopener" :href="`https://github.com/CorentinTh/it-tools/tree/v${version}`">
+            <c-link target="_blank" rel="noopener" :href="`https://github.com/zhuangsen/it-tools/tree/v${version}`">
               v{{ version }}
             </c-link>
 
@@ -75,8 +75,8 @@ const tools = computed<ToolCategory[]>(() => [
           </div>
           <div>
             © {{ new Date().getFullYear() }}
-            <c-link target="_blank" rel="noopener" href="https://github.com/CorentinTh">
-              Corentin Thomasset
+            <c-link target="_blank" rel="noopener" href="https://zhuangsen.live">
+              zhuangsen's blog
             </c-link>
           </div>
         </div>
@@ -115,7 +115,7 @@ const tools = computed<ToolCategory[]>(() => [
         <c-tooltip position="bottom" tooltip="Support IT Tools development">
           <c-button
             round
-            href="https://www.buymeacoffee.com/cthmsst"
+            href="https://www.buymeacoffee.com/zhuangsen"
             rel="noopener"
             target="_blank"
             class="support-button"
